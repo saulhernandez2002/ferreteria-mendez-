@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    background: url(ferrw.jpeg) no-repeat center; 
+    background-size: 60%;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    background: #E84A10;
+    position: fixed;
+    width: 100%;
+    z-index: 100%;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+
+.title {
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: 2px solid #2F57A4;
+    color: #2F57A4;
+    text-decoration: none;
+    background: #2F57A4;
+}
+
+.Información {
+    background: #2F57A4;
+    color: rgb(255, 255, 255);
+}
+
+.articulos {
+     padding-bottom: 30px;
+     background: #2F57A4;
+ 
+     color: rgb(255, 255, 255);
+}
+.contacto {
+    padding-bottom: 30px;
+    background: #2F57A4;
+
+    color: rgb(255, 255, 255);
+}
+
+.contain {
+    max-width: 1055px;
+    margin: 0 auto;
+}
+
+
+.list-saucers {
+    display: inline-flex;
+}
+
+@media (max-width:767px){
+    .list-saucers{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:767px){
+    .navbar{
+        
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
